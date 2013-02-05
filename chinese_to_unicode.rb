@@ -41,7 +41,9 @@ def translate_files inputfile
   puts parser
 end
 
-#p translate_files('input.html')
+input = File.expand_path ARGV[0]
+
+p translate_files input
 
 # READEME
 =begin
